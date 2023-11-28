@@ -1,5 +1,100 @@
-*,
-*:after,
-*:before {
-  box-sizing: content-box;
+html {
+  background-color: rgb(9, 9, 9);
+  color: rgb(255, 255, 255);
 }
+
+body {
+}
+
+.carousel {
+position: relative;
+max-width: 800px;
+margin: auto;
+overflow: hidden;
+}
+
+.slid {
+display: none;
+}
+
+
+.active {
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: auto
+}
+
+button {
+position: absolute;
+top: 50%;
+transition: translateY(-50);
+background-color: rgba; (0,0,0,0.5);
+color: white;
+boarder: none;
+cursor: pointer;
+padding: 10px;
+font-size: 18px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next{
+  right: 10px
+}
+
+
+.wrapper {
+  background-color: rgb(31, 29, 29);
+  width: 95%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+nav {
+  background-color: rgb(31, 29, 29);
+}
+
+nav ul {
+  display: inline;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5em;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 2em;
+}
+
+nav h1 {
+  display: inline;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: fuchsia;
+}
+
+.nav-icon {
+  width: 25px;
+  vertical-align: text-bottom;
+}
+
+div {
+  height: 100;
+  width: 100;
+}
+
