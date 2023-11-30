@@ -28,32 +28,11 @@
           <li><a herf="#">LogIn</a></li>
         </ul>
       </nav>
-      <!-- 
-      <div class="carousel">
-        <div class="slide active">
-          <img src="images/eleanor and park image 1.jpg" alt="slide 1" />
-        </div>
-        <div class="slide active">
-          <img src="images/harry potter image 5.jpg" alt="slide 2" />
-        </div>
-        <div class="slide active">
-          <img src="images/silence of the lambs image 1.jpg" alt="slide 3" />
-        </div>
-        <div class="slide active">
-          <img src="images/the hobbit image 1.jpg" alt="slide 4" />
-        </div>
-        <div class="slide active">
-          <img src="images/the odyssey image 6.jpg" alt="slide 5" />
-        </div>
-        <div class="slide active">
-          <img src="images/r + m image 4.jpg" alt="slide 6" />
-        </div>
-        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-        <button class="next" onclick="changeSlide(1)">&#10095;</button>
-      </div> -->
 
-      <section class="carousel" aria-label="Gallery">
+      <section class="carousel homepage__carousel" aria-label="Gallery">
         <ol class="carousel__viewport">
+          <!-- Each LI is a separate slide. Be sure to update not only the slide LI's ID but also the A links to the next and prior slide when making new slides -->
+
           <li id="carousel__slide1" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper">
               <a href="#carousel__slide4" class="carousel__prev"
@@ -87,11 +66,23 @@
             <a href="#carousel__slide3" class="carousel__prev"
               >Go to previous slide</a
             >
+            <a href="#carousel__slide5" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide4" class="carousel__prev"
+              >Go to previous slide</a
+            >
             <a href="#carousel__slide1" class="carousel__next"
               >Go to first slide</a
             >
           </li>
         </ol>
+
+        <!-- Add new slides here for the slide indicator dots to have new dots for each slide -->
+
         <aside class="carousel__navigation">
           <ol class="carousel__navigation-list">
             <li class="carousel__navigation-item">
@@ -112,6 +103,11 @@
             <li class="carousel__navigation-item">
               <a href="#carousel__slide4" class="carousel__navigation-button"
                 >Go to slide 4</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide5" class="carousel__navigation-button"
+                >Go to slide 5</a
               >
             </li>
           </ol>
