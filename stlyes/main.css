@@ -42,7 +42,7 @@ html {
 
 .carousel {
   position: relative;
-  padding-top: 75%;
+  padding-top: 20%;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
   width: 70vw;
@@ -213,6 +213,20 @@ html {
 }
 
 .genre-item img {
+  width: 100%;
+}
+
+.trending-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trending-item {
+  width: 20px;
+  height: 10px;
+}
+
+.Trending-img img {
   width: 100%;
 }
 
