@@ -202,6 +202,20 @@ html {
   background-image: url("../images/fiction-\ magic\ this\ spells\ disaster\ cover.jpg");
 }
 
+.genre-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.genre-item {
+  width: 300px;
+  height: 400px;
+}
+
+.genre-item img {
+  width: 100%;
+}
+
 .wrapper {
   background-color: rgb(31, 29, 29);
   width: 95%;
