@@ -8,195 +8,333 @@
     <script src="./scripts/main.js"></script>
   </head>
   <body>
-    <div class="wrapper">
-      <nav>
-        <ul>
-          <li>
-            <a class="nav-home" herf="#"></a>
-            <h1>BOOKMARKED</h1>
-            <img
-              class="nav-icon"
-              src="images/bookmark logo outline.svg"
-              alt=""
-            />
-          </li>
+    <div class="header">
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li>
+              <a class="nav-home" href="#"></a>
+              <h1>BOOKMARKED</h1>
+              <img
+                class="nav-icon"
+                src="images/bookmark logo outline.svg"
+                alt=""
+              />
+            </li>
 
-          <li><a herf="#">Genres</a></li>
-          <li><a herf="#">Top Rated</a></li>
-          <li><a herf="#">Art Gallery</a></li>
-          <li><a herf="#">Search</a></li>
-          <li><a herf="#">LogIn</a></li>
-        </ul>
-      </nav>
+            <li><a href="#">Genres</a></li>
+            <li><a href="#">Top Rated</a></li>
+            <li><a href="#">Art Gallery</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">LogIn</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
-      <section class="carousel homepage__carousel" aria-label="Gallery">
-        <ol class="carousel__viewport">
-          <!-- Each LI is a separate slide. Be sure to update not only the slide LI's ID but also the A links to the next and prior slide when making new slides -->
+    <section class="carousel homepage__carousel" aria-label="Gallery">
+      <ol class="carousel__viewport">
+        <!-- Each LI is a separate slide. Be sure to update not only the slide LI's ID but also the A links to the next and prior slide when making new slides -->
 
-          <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-            <div class="carousel__snapper">
-              <a href="#carousel__slide4" class="carousel__prev"
-                >Go to last slide</a
-              >
-              <a href="#carousel__slide2" class="carousel__next"
-                >Go to next slide</a
-              >
-            </div>
-          </li>
-          <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-            <div class="carousel__snapper"></div>
-            <a href="#carousel__slide1" class="carousel__prev"
-              >Go to previous slide</a
-            >
-            <a href="#carousel__slide3" class="carousel__next"
-              >Go to next slide</a
-            >
-          </li>
-          <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-            <div class="carousel__snapper"></div>
-            <a href="#carousel__slide2" class="carousel__prev"
-              >Go to previous slide</a
-            >
-            <a href="#carousel__slide4" class="carousel__next"
-              >Go to next slide</a
-            >
-          </li>
-          <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-            <div class="carousel__snapper"></div>
-            <a href="#carousel__slide3" class="carousel__prev"
-              >Go to previous slide</a
-            >
-            <a href="#carousel__slide5" class="carousel__next"
-              >Go to next slide</a
-            >
-          </li>
-          <li id="carousel__slide5" tabindex="0" class="carousel__slide">
-            <div class="carousel__snapper"></div>
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper">
             <a href="#carousel__slide4" class="carousel__prev"
-              >Go to previous slide</a
+              >Go to last slide</a
             >
-            <a href="#carousel__slide1" class="carousel__next"
-              >Go to first slide</a
+            <a href="#carousel__slide2" class="carousel__next"
+              >Go to next slide</a
+            >
+          </div>
+        </li>
+        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide1" class="carousel__prev"
+            >Go to previous slide</a
+          >
+          <a href="#carousel__slide3" class="carousel__next"
+            >Go to next slide</a
+          >
+        </li>
+        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide2" class="carousel__prev"
+            >Go to previous slide</a
+          >
+          <a href="#carousel__slide4" class="carousel__next"
+            >Go to next slide</a
+          >
+        </li>
+        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide3" class="carousel__prev"
+            >Go to previous slide</a
+          >
+          <a href="#carousel__slide5" class="carousel__next"
+            >Go to next slide</a
+          >
+        </li>
+        <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide4" class="carousel__prev"
+            >Go to previous slide</a
+          >
+          <a href="#carousel__slide1" class="carousel__next"
+            >Go to first slide</a
+          >
+        </li>
+      </ol>
+
+      <!-- Add new slides here for the slide indicator dots to have new dots for each slide -->
+
+      <aside class="carousel__navigation">
+        <ol class="carousel__navigation-list">
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide1" class="carousel__navigation-button"
+              >Go to slide 1</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide2" class="carousel__navigation-button"
+              >Go to slide 2</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide3" class="carousel__navigation-button"
+              >Go to slide 3</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide4" class="carousel__navigation-button"
+              >Go to slide 4</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide5" class="carousel__navigation-button"
+              >Go to slide 5</a
             >
           </li>
         </ol>
+      </aside>
+    </section>
 
-        <!-- Add new slides here for the slide indicator dots to have new dots for each slide -->
+    <h1>Welcome to BOOKMARKED!</h1>
+    <h3>
+      where the love for literature meets the canvas of creativity! Discover a
+      haven for book enthusiasts and artists alike, where sharing your favorite
+      reads and showcasing your fan art is not just encouraged, but celebrated.
+      Join our vibrant community, share your book reviews, and unveil your
+      artistic talents in a space designed for bibliophiles and creators. Let's
+      embark on this literary and artistic adventure together at Bookmarked!
+    </h3>
 
-        <aside class="carousel__navigation">
-          <ol class="carousel__navigation-list">
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide1" class="carousel__navigation-button"
-                >Go to slide 1</a
-              >
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide2" class="carousel__navigation-button"
-                >Go to slide 2</a
-              >
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide3" class="carousel__navigation-button"
-                >Go to slide 3</a
-              >
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide4" class="carousel__navigation-button"
-                >Go to slide 4</a
-              >
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide5" class="carousel__navigation-button"
-                >Go to slide 5</a
-              >
-            </li>
-          </ol>
-        </aside>
-      </section>
+    <h1>Genres</h1>
+    <div class="genre-section">
+      <div class="genre-item">
+        <img src="./images/new fiction icon.png" alt="fiction" />
+        <h2>Fiction</h2>
+      </div>
+      <div class="genre-item">
+        <img src="./images/new nonfiction icon.png" alt="nonfiction" />
+        <h2>Nonfiction</h2>
+      </div>
+      <div class="genre-item">
+        <img src="./images/new drama icon.png" alt="drama" />
+        <h2>Drama</h2>
+      </div>
+      <div class="genre-item">
+        <img src="./images/new poetry icon.png" alt="poetry" />
+        <h2>Poetry</h2>
+      </div>
+    </div>
 
-      <h1>Welcome to BOOKMARKED!</h1>
-      <h3>
-        where the love for literature meets the canvas of creativity! Discover a
-        haven for book enthusiasts and artists alike, where sharing your
-        favorite reads and showcasing your fan art is not just encouraged, but
-        celebrated. Join our vibrant community, share your book reviews, and
-        unveil your artistic talents in a space designed for bibliophiles and
-        creators. Let's embark on this literary and artistic adventure together
-        at Bookmarked!
-      </h3>
-
-      <h1>Genres</h1>
-      <div class="genre-section">
-        <div class="genre-item">
-          <img src="./images/new fiction icon.png" alt="fiction" />
-          <h2>Fiction</h2>
-        </div>
-        <div class="genre-item">
-          <img src="./images/new nonfiction icon.png" alt="nonfiction" />
-          <h2>Nonfiction</h2>
-        </div>
-        <div class="genre-item">
-          <img src="./images/new drama icon.png" alt="drama" />
-          <h2>Drama</h2>
-        </div>
-        <div class="genre-item">
-          <img src="./images/new poetry icon.png" alt="poetry" />
-          <h2>Poetry</h2>
-        </div>
+    <h1>What's Trending</h1>
+    <div class="trending-section">
+      <div class="trending-item">
+        <img src="./images/The-Odyssey-cover.jpg" alt="" />
+        <h3>The Odyssey</h3>
       </div>
 
-      <h1>What's Trending</h1>
-      <div class="trending-section">
-        <div class="trending-item">
-          <img src="./images/The-Odyssey-cover.jpg" alt="" />
-          <h3>The Odyssey</h3>
-        </div>
-
-        <div class="trending-item">
-          <img src="./images/fiction-magic-wrinkle-in-time.jpg" alt="" />
-          <h3>A Wrinkle In Time</h3>
-        </div>
-
-        <div class="trending-item">
-          <img
-            src="./images/fiction-magic-this-spells-disaster-cover.jpg.jpg"
-            alt=""
-          />
-          <h3>This Spells Disaster</h3>
-        </div>
-
-        <div class="trending-item">
-          <img
-            src="./images/fiction- mystery the silence of the lambs.jpg"
-            alt=""
-          />
-          <h3>The Silence of The Lambs</h3>
-        </div>
-
-        <div class="trending-item">
-          <img src="./images/nonfiction- auto a girlhood.jpg" alt="" />
-          <h3>A Girlhood</h3>
-        </div>
-
-        <div class="trending-item">
-          <img src="./images/drama- comedy the burnout.jpg" alt="" />
-          <h3>The burnout</h3>
-        </div>
+      <div class="trending-item">
+        <img src="./images/fiction-magic-wrinkle-in-time.jpg" alt="" />
+        <h3>A Wrinkle In Time</h3>
       </div>
 
-      <div>
-        <h1>Top User Discourse</h1>
+      <div class="trending-item">
+        <img
+          src="./images/fiction-magic-this-spells-disaster-cover.jpg"
+          alt=""
+        />
+        <h3>This Spells Disaster</h3>
       </div>
 
-      <div>
-        <img src="images/artist icon 2.jpg" alt="" />
+      <div class="trending-item">
+        <img
+          src="./images/fiction- mystery the silence of the lambs.jpg"
+          alt=""
+        />
+        <h3>The Silence of The Lambs</h3>
+      </div>
+
+      <div class="trending-item">
+        <img src="./images/nonfiction- auto a girlhood.jpg" alt="" />
+        <h3>A Girlhood</h3>
+      </div>
+
+      <div class="trending-item">
+        <img src="./images/drama- comedy the burnout.jpg" alt="" />
+        <h3>The burnout</h3>
+      </div>
+    </div>
+
+    <div>
+      <h1>Trending Reviews</h1>
+      <div class="trending-reviews-wrapper">
+        <div class="image-with-text">
+          <a href="./pages/page2.html">
+            <img src="./images/profile 1.png" alt="" />
+          </a>
+          <div class="text">
+            <h2>Jenna Johnson-The Priory of the Orange Tree</h2>
+            <p>
+              The Priory of the Orange Tree" is a majestic tapestry woven with
+              intricate political intrigue and awe-inspiring mythology. Samantha
+              Shannon has crafted a world so richly detailed that it becomes a
+              character in itself. Dragons, queens, prophecies—every element is
+              meticulously crafted, drawing you into an immersive experience
+              that transcends the pages. The narrative's depth and the
+              complexity of its characters create a tale that feels both
+              timeless and refreshingly original. A fantasy masterpiece that
+              will leave readers spellbound
+            </p>
+          </div>
+        </div>
+        <div class="image-with-text">
+          <a href="../pages/page2.html">
+            <img src="./images/profil 2.png" alt=""
+          /></a>
+          <div class="text">
+            <h2>Claire Hill-The Silence of the Lambs</h2>
+            <p>
+              The Silence of the Lambs" by Thomas Harris is a gripping
+              psychological thriller that delves into the dark minds of both
+              criminals and those tasked with catching them. Harris weaves a
+              haunting narrative around FBI trainee Clarice Starling, a
+              compelling and tenacious protagonist, as she engages in a deadly
+              game of cat and mouse with the brilliant but monstrous Dr.
+              Hannibal Lecter. The novel is a relentless exploration of the
+              human psyche, filled with tension, suspense, and intricate
+              character dynamics. Harris's masterful storytelling and skillful
+              portrayal of psychological terror make this book an intense and
+              unforgettable read, cementing its place as a classic in the
+              thriller genre.
+            </p>
+          </div>
+        </div>
+        <div class="image-with-text">
+          <a href="../pages/page2.html"
+            ><img src="./images/profile3.png" alt=""
+          /></a>
+          <div class="text">
+            <h2>Jordan Page-Harry Potter</h2>
+            <p>
+              Harry Potter and the Sorcerer's Stone" by J.K. Rowling is a
+              spellbinding introduction to the enchanting world of Hogwarts
+              School of Witchcraft and Wizardry. Rowling captivates readers with
+              her vivid imagination, creating a world where magic intertwines
+              with the ordinary, and where courage and friendship triumph over
+              darkness. The story follows young Harry Potter as he discovers his
+              magical heritage, navigates the challenges of school, and uncovers
+              the mysteries surrounding his past. The book's richly developed
+              characters, from the brave Hermione Granger to the loyal Ron
+              Weasley, complement the evocative settings and engaging plot.
+              Rowling's mastery lies not only in her ability to craft an
+              immersive fantasy realm but also in her poignant exploration of
+              themes like friendship, bravery, and the power of choice. This
+              first installment is a delightful beginning to a series that has
+              captured the hearts of readers worldwide, regardless of age.
+            </p>
+          </div>
+        </div>
+        <div class="image-with-text">
+          <a href="./pages/page2.html">
+            <img src="./images/profile 1.png" alt="" />
+          </a>
+          <div class="text">
+            <h2>Jenna Johnson-The Priory of the Orange Tree</h2>
+            <p>
+              The Priory of the Orange Tree" is a majestic tapestry woven with
+              intricate political intrigue and awe-inspiring mythology. Samantha
+              Shannon has crafted a world so richly detailed that it becomes a
+              character in itself. Dragons, queens, prophecies—every element is
+              meticulously crafted, drawing you into an immersive experience
+              that transcends the pages. The narrative's depth and the
+              complexity of its characters create a tale that feels both
+              timeless and refreshingly original. A fantasy masterpiece that
+              will leave readers spellbound
+            </p>
+          </div>
+        </div>
+        <div class="image-with-text">
+          <a href="../pages/page2.html">
+            <img src="./images/profil 2.png" alt=""
+          /></a>
+          <div class="text">
+            <h2>Claire Hill-The Silence of the Lambs</h2>
+            <p>
+              The Silence of the Lambs" by Thomas Harris is a gripping
+              psychological thriller that delves into the dark minds of both
+              criminals and those tasked with catching them. Harris weaves a
+              haunting narrative around FBI trainee Clarice Starling, a
+              compelling and tenacious protagonist, as she engages in a deadly
+              game of cat and mouse with the brilliant but monstrous Dr.
+              Hannibal Lecter. The novel is a relentless exploration of the
+              human psyche, filled with tension, suspense, and intricate
+              character dynamics. Harris's masterful storytelling and skillful
+              portrayal of psychological terror make this book an intense and
+              unforgettable read, cementing its place as a classic in the
+              thriller genre.
+            </p>
+          </div>
+        </div>
+        <div class="image-with-text">
+          <a href="../pages/page2.html"
+            ><img src="./images/profile3.png" alt=""
+          /></a>
+          <div class="text">
+            <h2>Jordan Page-Harry Potter</h2>
+            <p>
+              Harry Potter and the Sorcerer's Stone" by J.K. Rowling is a
+              spellbinding introduction to the enchanting world of Hogwarts
+              School of Witchcraft and Wizardry. Rowling captivates readers with
+              her vivid imagination, creating a world where magic intertwines
+              with the ordinary, and where courage and friendship triumph over
+              darkness. The story follows young Harry Potter as he discovers his
+              magical heritage, navigates the challenges of school, and uncovers
+              the mysteries surrounding his past. The book's richly developed
+              characters, from the brave Hermione Granger to the loyal Ron
+              Weasley, complement the evocative settings and engaging plot.
+              Rowling's mastery lies not only in her ability to craft an
+              immersive fantasy realm but also in her poignant exploration of
+              themes like friendship, bravery, and the power of choice. This
+              first installment is a delightful beginning to a series that has
+              captured the hearts of readers worldwide, regardless of age.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="gallery-item">
+        <img src="./images/artist icon 2.jpg" />
         <h2>What To Submit Your Own Art?</h2>
-
-        <img src="images/gallery icon 3.jpg" alt="" />
+      </div>
+      <div class="gallery-item">
+        <img src="./images/gallery icon 3.jpg" />
         <h2>View Gallery</h2>
       </div>
-
-      <footer>Footer</footer>
     </div>
+
+    <footer>Footer</footer>
   </body>
 </html>

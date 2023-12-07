@@ -43,7 +43,7 @@ html {
 .carousel {
   position: relative;
   padding-top: 20%;
-  filter: drop-shadow(0 0 10px #0003);
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
   perspective: 100px;
   width: 70vw;
   height: 70vh;
@@ -124,7 +124,7 @@ html {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  background-color: #333;
+  background-color: #000000;
   background-clip: content-box;
   border: 0.25rem solid transparent;
   border-radius: 50%;
@@ -161,7 +161,7 @@ html {
 .carousel::after {
   content: "";
   z-index: 1;
-  background-color: #333;
+  background-color: #000000;
   background-size: 1.5rem 1.5rem;
   background-repeat: no-repeat;
   background-position: center center;
@@ -222,23 +222,100 @@ html {
 }
 
 .trending-item {
-  width: 20px;
-  height: 10px;
+  width: 140px;
+}
+
+.trending-item img {
+  width: 140px;
 }
 
 .Trending-img img {
   width: 100%;
 }
 
+.gallery-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gallery-item {
+  width: 300px;
+  height: 400px;
+}
+
+.gallery-img img {
+  width: 100%;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.trending-reviews-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.image-with-text {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  width: 300px;
+}
+
+.image-with-text .text {
+  padding-top: 0;
+}
+
+.image-with-text .text h2 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.image-with-text p {
+  text-align: left;
+}
+
+.image-with-text img {
+  height: 100px;
+  width: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  padding: 10px;
+  text-align: center;
+}
+
+.text h3 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 10px;
+}
+
 .wrapper {
-  background-color: rgb(31, 29, 29);
+  background-color: rgb(0, 0, 0);
   width: 95%;
   margin: 0 auto;
   padding: 2em;
 }
 
 nav {
-  background-color: rgb(31, 29, 29);
+  background-color: rgb(0, 0, 0);
 }
 
 nav ul {
