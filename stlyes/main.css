@@ -233,6 +233,15 @@ html {
   width: 100%;
 }
 
+.trending-reviews-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
 .gallery-section {
   display: flex;
   justify-content: space-evenly;
@@ -254,15 +263,6 @@ html {
   margin: 20px auto;
 }
 
-.trending-reviews-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
 .image-with-text {
   display: flex;
   flex-direction: row;
@@ -272,6 +272,7 @@ html {
 
 .image-with-text .text {
   padding-top: 0;
+  padding-bottom: 4em;
 }
 
 .image-with-text .text h2 {
@@ -344,7 +345,7 @@ nav a:hover {
 }
 
 nav a:visited {
-  color: fuchsia;
+  color: rgb(105, 13, 105);
 }
 
 .nav-icon {
@@ -355,4 +356,22 @@ nav a:visited {
 div {
   height: 100;
   width: 100;
+}
+
+.art-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5em;
+}
+
+.art-item {
+  width: 400px;
+}
+
+.art-item img {
+  width: 400px;
+}
+
+.art-img img {
+  width: 100%;
 }
