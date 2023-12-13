@@ -428,13 +428,18 @@ div {
   width: 100%;
 }
 
-.harry-potter-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  flex-wrap: wrap;
+.harry-potter-wrapper .image-with-text {
+  width: 80%;
+}
+
+.harry-potter-wrapper h1 {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.harry-potter-wrapper h2 {
+  font-size: 0.8em;
 }
 
 .hp-art-section {
