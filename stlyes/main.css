@@ -183,7 +183,7 @@ html {
 /* Make a new one of these for each new slide */
 
 .homepage__carousel #carousel__slide1 {
-  background-image: url("../images/magical or PJO.jpg");
+  background-image: url("../images/Photo Dec 13 2023, 12 56 42 AM.jpg");
 }
 
 .homepage__carousel #carousel__slide2 {
@@ -234,6 +234,34 @@ html {
   background-image: url("../images/harry-potter-5902545_1280.png");
 }
 
+.fiction__carousel #carousel__slide1 {
+  background-image: url("../images/magical or PJO.jpg");
+}
+
+.fiction__carousel #carousel__slide2 {
+  background-image: url("../images/eleanor and park image 1.jpg");
+}
+
+.fiction__carousel #carousel__slide3 {
+  background-image: url("../images/silence of the lambs image 2.jpg");
+}
+
+.fiction__carousel #carousel__slide4 {
+  background-image: url("../images/tragedy 2.jpg");
+}
+
+.fiction__carousel #carousel__slide5 {
+  background-image: url("../images/harry potter image 5.jpg");
+}
+
+.fiction__carousel #carousel__slide6 {
+  background-image: url("../images/Photo Dec 13 2023, 12 56 42 AM.jpg");
+}
+
+.fiction__carousel #carousel__slide7 {
+  background-image: url("../images/the raven boys image 1.jpg");
+}
+
 .genre-section {
   display: flex;
   justify-content: space-evenly;
@@ -274,20 +302,6 @@ html {
   flex-wrap: wrap;
 }
 
-.gallery-section {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.gallery-item {
-  width: 300px;
-  height: 400px;
-}
-
-.gallery-img img {
-  width: 100%;
-}
-
 .image-row {
   display: flex;
   justify-content: space-evenly;
@@ -299,7 +313,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: start;
-  width: 300px;
+  width: 450px;
 }
 
 .image-with-text .text {
@@ -337,7 +351,7 @@ img {
 }
 
 .text {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .wrapper {
@@ -417,20 +431,55 @@ div {
   flex-wrap: wrap;
 }
 
-.art-section {
+.hp-art-section {
   display: flex;
   justify-content: space-evenly;
   padding-top: 5em;
 }
 
-.art-item {
+.hp-art-item {
   width: 400px;
 }
 
-.art-item img {
+.hp-art-item img {
   width: 400px;
 }
 
-.art-img img {
+.hp-art-img img {
+  width: 100%;
+}
+
+.fiction-art-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5em;
+}
+
+.fiction-art-item {
+  width: 400px;
+}
+
+.fiction-art-item img {
+  width: 400px;
+}
+
+.fiction-art-img img {
+  width: 100%;
+}
+
+.fiction-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fiction-item {
+  width: 200px;
+}
+
+.fictiong-item img {
+  width: 200px;
+}
+
+.fiction-img img {
   width: 100%;
 }
