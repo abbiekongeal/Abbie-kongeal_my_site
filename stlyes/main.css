@@ -110,7 +110,7 @@ html {
 .carousel__navigation {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 200px;
   left: 0;
   text-align: center;
 }
