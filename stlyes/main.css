@@ -107,6 +107,14 @@ html {
   animation-name: none;
 }
 
+.home-carousel__navigation {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  text-align: center;
+}
+
 .carousel__navigation {
   position: absolute;
   right: 0;
@@ -115,6 +123,13 @@ html {
   text-align: center;
 }
 
+.fiction-carousel__navigation {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  text-align: center;
+}
 .carousel__navigation-list,
 .carousel__navigation-item {
   display: inline-block;
