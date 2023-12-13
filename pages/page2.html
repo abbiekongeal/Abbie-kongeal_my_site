@@ -29,13 +29,13 @@
         </ul>
       </nav>
 
-      <section class="carousel homepage__carousel" aria-label="Gallery">
+      <section class="carousel pagetwo__carousel" aria-label="Gallery">
         <ol class="carousel__viewport">
           <!-- Each LI is a separate slide. Be sure to update not only the slide LI's ID but also the A links to the next and prior slide when making new slides -->
 
           <li id="carousel__slide1" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper">
-              <a href="#carousel__slide4" class="carousel__prev"
+              <a href="#carousel__slide7" class="carousel__prev"
                 >Go to last slide</a
               >
               <a href="#carousel__slide2" class="carousel__next"
@@ -75,9 +75,28 @@
             <a href="#carousel__slide4" class="carousel__prev"
               >Go to previous slide</a
             >
-            <a href="#carousel__slide1" class="carousel__next"
-              >Go to first slide</a
+            <a href="#carousel__slide6" class="carousel__next"
+              >Go to next slide</a
             >
+          </li>
+          <li id="carousel__slide6" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+              <a href="#carousel__slide5" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide7" class="carousel__next"
+                >Go to next slide</a
+              >
+              <li id="carousel__slide7" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide6" class="carousel__prev"
+                  >Go to previous slide</a
+                >
+                <a href="#carousel__slide1" class="carousel__next"
+                  >Go to first slide</a
+                >
+              </li>
+            </div>
           </li>
         </ol>
 
@@ -110,9 +129,59 @@
                 >Go to slide 5</a
               >
             </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide6" class="carousel__navigation-button"
+                >Go to slide 6</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide7" class="carousel__navigation-button"
+                >Go to slide 7</a
+              >
+            </li>
           </ol>
         </aside>
       </section>
+
+      <div>
+        <h1>Harry Potter and the Sorcerer's Stone</h1>
+        <h3>J.K. Rowling</h3>
+        <div class="harry-potter-wrapper">
+          <div class="hp-image-with-text">
+            <a href="./pages/page2.html">
+              <img src="./images/fiction- magic harry potter.jpg" alt="" />
+            </a>
+            <div class="text">
+              <p>
+                Harry Potter has never been the star of a Quidditch team,
+                scoring points while riding a broom far above the ground. He
+                knows no spells, has never helped to hatch a dragon, and has
+                never worn a cloak of invisibility. All he knows is a miserable
+                life with the Dursleys, his horrible aunt and uncle, and their
+                abominable son, Dudley - a great big swollen spoiled bully.
+                Harry's room is a tiny closet at the foot of the stairs, and he
+                hasn't had a birthday party in eleven years. But all that is
+                about to change when a mysterious letter arrives by owl
+                messenger: a letter with an invitation to an incredible place
+                that Harry - and anyone who reads about him - will find
+                unforgettable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="art-section">
+        <div class="art-item">
+          <img src="./images/artist icon 2.jpg" alt="" />
+          <h2>What To Submit Your Own Art?</h2>
+        </div>
+
+        <div class="art-item">
+          <img src="./images/gallery icon 3.png" alt="" />
+          <h2>View Gallery</h2>
+        </div>
+      </div>
     </div>
   </body>
 </html>

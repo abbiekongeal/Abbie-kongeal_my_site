@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOKMARKED</title>
+    <link rel="stylesheet" href="../stlyes/main.css" />
+    <script src="./scripts/main.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="wrapper">
+        <nav>
+          <ul>
+            <li>
+              <img
+                class="nav-icon"
+                src="images/bookmark logo outline.svg"
+                alt=""
+              />
+              <a class="nav-home" href="#"></a>
+              <h1>BOOKMARKED</h1>
+            </li>
+
+            <li><a href="#">Genres</a></li>
+            <li><a href="#">Top Rated</a></li>
+            <li><a href="#">Art Gallery</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">LogIn</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="carousel homepage__carousel" aria-label="Gallery">
+      <ol class="carousel__viewport">
+        <!-- Each LI is a separate slide. Be sure to update not only the slide LI's ID but also the A links to the next and prior slide when making new slides -->
+
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper">
+            <a href="#carousel__slide4" class="carousel__prev"
+              >Go to last slide</a
+            >
+            <a href="#carousel__slide2" class="carousel__next"
+              >Go to next slide</a
+            >
+          </div>
+        </li>
+        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide1" class="carousel__prev"
+            >Go to previous slide</a
+          >
+          <a href="#carousel__slide3" class="carousel__next"
+            >Go to next slide</a
+          >
+        </li>
+        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide2" class="carousel__prev"
+            >Go to previous slide</a
+          >
+          <a href="#carousel__slide4" class="carousel__next"
+            >Go to next slide</a
+          >
+        </li>
+        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide3" class="carousel__prev"
+            >Go to previous slide</a
+          >
+          <a href="#carousel__slide5" class="carousel__next"
+            >Go to next slide</a
+          >
+        </li>
+        <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide4" class="carousel__prev"
+            >Go to previous slide</a
+          >
+          <a href="#carousel__slide1" class="carousel__next"
+            >Go to first slide</a
+          >
+        </li>
+      </ol>
+
+      <!-- Add new slides here for the slide indicator dots to have new dots for each slide -->
+
+      <aside class="carousel__navigation">
+        <ol class="carousel__navigation-list">
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide1" class="carousel__navigation-button"
+              >Go to slide 1</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide2" class="carousel__navigation-button"
+              >Go to slide 2</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide3" class="carousel__navigation-button"
+              >Go to slide 3</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide4" class="carousel__navigation-button"
+              >Go to slide 4</a
+            >
+          </li>
+          <li class="carousel__navigation-item">
+            <a href="#carousel__slide5" class="carousel__navigation-button"
+              >Go to slide 5</a
+            >
+          </li>
+        </ol>
+      </aside>
+    </section>
+
+    <h1>Fiction Sub-Genres</h1>
+    <div class="fiction-section">
+      <div class="trending-item">
+        <img src="./images/new mystery icon copy.jpg" alt="" />
+      </div>
+
+      <div class="fiction-item">
+        <img src="./images/new horror icon copy.jpg" alt="" />
+      </div>
+
+      <div class="fiction-item">
+        <img src="./images/new fantasy icon copy.jpg" alt="" />
+      </div>
+
+      <div class="fiction-item">
+        <img src="./images/new romance icon copy.jpg" alt="" />
+      </div>
+
+      <div class="fiction-item">
+        <img src="./images/new si-fi icon copy.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="bottom-section">
+      <div class="bottom-item">
+        <img src="./images/artist icon 2.jpg" alt="" />
+        <h2>What To Submit Your Own Art?</h2>
+      </div>
+
+      <div class="bottom-item">
+        <img src="./images/gallery icon 3.png" alt="" />
+        <h2>View Gallery</h2>
+      </div>
+    </div>
+  </body>
+</html>

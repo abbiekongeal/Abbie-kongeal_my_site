@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(9, 9, 9);
+  background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
 
@@ -45,8 +45,8 @@ html {
   padding-top: 20%;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
   perspective: 100px;
-  width: 70vw;
-  height: 70vh;
+  width: 50vw;
+  height: 50vh;
   margin: 0 auto;
 }
 
@@ -183,23 +183,55 @@ html {
 /* Make a new one of these for each new slide */
 
 .homepage__carousel #carousel__slide1 {
-  background-image: url("../images/eleanor\ and\ park\ image\ 1.jpg");
+  background-image: url("../images/magical or PJO.jpg");
 }
 
 .homepage__carousel #carousel__slide2 {
-  background-image: url("../images/fiction-\ mystery\ the\ silence\ of\ the\ lambs.jpg");
+  background-image: url("../images/pride and prejudice image 2.jpg");
 }
 
 .homepage__carousel #carousel__slide3 {
-  background-image: url("../images/fiction-\ magic\ wrinkle\ in\ time.jpg");
+  background-image: url("../images/the notebook image 1.jpg");
 }
 
 .homepage__carousel #carousel__slide4 {
-  background-image: url("../images/harry\ potter\ image\ 5.jpg");
+  background-image: url("../images/tragedy.jpg");
 }
 
 .homepage__carousel #carousel__slide5 {
-  background-image: url("../images/fiction-\ magic\ this\ spells\ disaster\ cover.jpg");
+  background-image: url("../images/harry-potter-4077473_1280.png");
+}
+
+.homepage__carousel #carousel__slide6 {
+  background-image: url("../images/the raven boys image 1.jpg");
+}
+
+.pagetwo__carousel #carousel__slide1 {
+  background-image: url("../images/harry potter image 1.jpg");
+}
+
+.pagetwo__carousel #carousel__slide2 {
+  background-image: url("../images/harry potter image 2.jpg");
+}
+
+.pagetwo__carousel #carousel__slide3 {
+  background-image: url("../images/harry potter image 3.jpg");
+}
+
+.pagetwo__carousel #carousel__slide4 {
+  background-image: url("../images/harry potter image 4.jpg");
+}
+
+.pagetwo__carousel #carousel__slide5 {
+  background-image: url("../images/harry potter image 5.jpg");
+}
+
+.pagetwo__carousel #carousel__slide6 {
+  background-image: url("../images/harry-potter-4073863_1280.png");
+}
+
+.pagetwo__carousel #carousel__slide7 {
+  background-image: url("../images/harry-potter-5902545_1280.png");
 }
 
 .genre-section {
@@ -305,7 +337,7 @@ img {
 }
 
 .text {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .wrapper {
@@ -356,6 +388,33 @@ nav a:visited {
 div {
   height: 100;
   width: 100;
+}
+
+.art-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5em;
+}
+
+.art-item {
+  width: 400px;
+}
+
+.art-item img {
+  width: 400px;
+}
+
+.art-img img {
+  width: 100%;
+}
+
+.harry-potter-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .art-section {
